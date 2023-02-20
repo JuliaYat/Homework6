@@ -75,9 +75,10 @@ public class Main {
     public static void task10 () {
         System.out.println("Задача 10");
         int total;
+        int two = 2;
         for (int i = 1; i <= 10; i = i + 1) {
-            total = 2 * i;
-            System.out.println("2*" + i + "=" + total);
+            total = two * i;
+            System.out.println(two + "*" + i + "=" + total);
         }
     }
 }
